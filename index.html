@@ -64,13 +64,13 @@
   nav.scrolled { box-shadow: var(--shadow-sm); }
   .nav-inner {
     max-width: 1140px; margin: 0 auto; padding: 0 32px;
-    height: 68px; display: flex; align-items: center; justify-content: space-between;
+    height: 120px; display: flex; align-items: center; justify-content: space-between;
   }
   .logo-link { display: flex; align-items: center; gap: 11px; text-decoration: none; }
-  .logo-img { height: 56px; width: 56px; border-radius: 50%; object-fit: cover; border: 1.5px solid rgba(129,140,248,0.25); }
+  .logo-img { height: 104px; width: 104px; border-radius: 50%; object-fit: cover; border: 1.5px solid rgba(129,140,248,0.25); }
   .logo-text {
     font-family: 'Varela Round', sans-serif;
-    font-weight: 400; font-size: 19px; color: var(--text); letter-spacing: 0.2px;
+    font-weight: 400; font-size: 29px; color: var(--text); letter-spacing: 0.2px;
   }
   .logo-text span { background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
   .nav-links { display: flex; gap: 28px; align-items: center; }
@@ -90,7 +90,7 @@
 
   /* --- HERO --- */
   .hero {
-    padding: 150px 32px 90px; max-width: 1140px; margin: 0 auto;
+    padding: 200px 32px 90px; max-width: 1140px; margin: 0 auto;
     display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;
   }
   .hero-text { max-width: 520px; }
@@ -669,12 +669,13 @@
 <!-- CTA -->
 <section class="cta-section fade-up" id="contacto">
   <div class="section-label">// Contacto</div>
-  <h2>Soluciones creativas e<br><span class="highlight">inteligencia de negocio</span> a tu alcance</h2>
+  <h2>Inteligencia de negocio,<br><span class="highlight">soluciones creativas</span></h2>
   
   <a href="mailto:info@notnull.ar" class="btn-primary" style="font-size:16px; padding: 16px 36px;">
     info@notnull.ar
     <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
   </a>
+  <!-- COMENTADO: sección de contacto adicional (redundante con el botón de mail)
   <div class="contact-row">
     <div class="contact-item">
       <div class="contact-icon">
@@ -683,6 +684,7 @@
       info@notnull.ar
     </div>
   </div>
+  -->
 </section>
 
 <footer>
